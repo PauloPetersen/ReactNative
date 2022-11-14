@@ -14,8 +14,8 @@ export default function App() {
       </View>
 
       <View style={styles.middleView}>
-        <View style={styles.purplee} />
-        <View style={styles.bluee} />
+        <View style={styles.purple} />
+        <View style={styles.blue} />
       </View>
 
       <View style={styles.lightBlue} />
@@ -88,14 +88,14 @@ const styles = StyleSheet.create({
     height: "auto",
   },
 
-  purplee: {
+  purple: {
 
     width: "50%",
     height: 70,
     backgroundColor: "#a900fd"
   },
 
-  bluee: {
+  blue: {
 
     width: "50%",
     height: 70,
